@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #70f5ff;
+}
+
+button {
+  border: 2px solid #ff4000;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #ffb8b8;
+  
+}
+
+button:hover {
+  background-color: #ff4000;
+  color: white;
+
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid #70f5ff; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
